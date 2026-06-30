@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="sr">
 <head>
-    <meta http-equiv="refresh" content="0; url=https://TVOJ-WIX-SAJT.com">
-    <script>
-        window.location.href = "https://dositejjovanovic.wixstudio.com/dizajn";
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ffffff;
+            padding: 12px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 12px; /* razmak između radova */
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 6px; /* možeš obrisati ako želiš potpuno ravne ivice */
+        }
+    </style>
 </head>
 <body>
-    Redirecting...
+
+<div class="gallery">
+    <img src="images/rad1.jpg" alt="">
+    <img src="images/rad2.jpg" alt="">
+    <img src="images/rad3.jpg" alt="">
+    <img src="images/rad4.jpg" alt="">
+</div>
+
 </body>
 </html>
